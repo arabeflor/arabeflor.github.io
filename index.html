@@ -2,19 +2,102 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>arabeflor | Developer Profile & Software Projects</title>
     
     <!-- Paste your Google verification tag right below this line: -->
     <meta name="google-site-verification" content="opYG277DJNbQG4zHoweJUXuuDJ52j0XxgLTurX4sKJk" />
+
+    <style>
+      :root {
+        --bg-color: #0d1117;
+        --card-bg: #161b22;
+        --border-color: #30363d;
+        --text-main: #c9d1d9;
+        --text-muted: #8b949e;
+        --accent-color: #58a6ff;
+        --accent-hover: #79c0ff;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background-color: var(--bg-color);
+        color: var(--text-main);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .container {
+        background-color: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        padding: 32px;
+        max-width: 480px;
+        width: 100%;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      }
+
+      h1 {
+        font-size: 1.5rem;
+        color: #ffffff;
+        margin-bottom: 8px;
+        font-weight: 600;
+      }
+
+      p {
+        color: var(--text-muted);
+        font-size: 0.95rem;
+        margin-bottom: 24px;
+        line-height: 1.4;
+      }
+
+      ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      li a {
+        display: block;
+        padding: 12px 16px;
+        background-color: #21262d;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        color: var(--accent-color);
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 0.95rem;
+        transition: all 0.2s ease-in-out;
+      }
+
+      li a:hover {
+        background-color: #30363d;
+        border-color: var(--accent-color);
+        color: var(--accent-hover);
+        transform: translateY(-2px);
+      }
+    </style>
   </head>
   <body>
-    <h1>arabeflor - Developer Portfolio</h1>
-    <p>Explore my GitHub profile and featured open-source software projects:</p>
-    
-    <ul>
-      <li><a href="https://github.com/arabeflor">GitHub Profile: arabeflor</a></li>
-      <li><a href="https://github.com/arabeflor/SecureVault">Project: SecureVault</a></li>
-      <li><a href="https://github.com/arabeflor/NanoMC-Reworked">Project: NanoMC-Reworked</a></li>
-    </ul>
+    <div class="container">
+      <h1>arabeflor - Developer Portfolio</h1>
+      <p>Explore my GitHub profile and featured open-source software projects:</p>
+      
+      <ul>
+        <li><a href="https://github.com/arabeflor" target="_blank" rel="noopener">GitHub Profile: arabeflor</a></li>
+        <li><a href="https://github.com/arabeflor/SecureVault" target="_blank" rel="noopener">Project: SecureVault</a></li>
+        <li><a href="https://github.com/arabeflor/NanoMC-Reworked" target="_blank" rel="noopener">Project: NanoMC-Reworked</a></li>
+      </ul>
+    </div>
   </body>
 </html>
